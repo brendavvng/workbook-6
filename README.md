@@ -3,5 +3,4 @@
 
 Diagram
 
-[(workbook-6/blob/main/Screenshot/workbook-6-diagram-exc-1.png)
-](https://github.com/brendavvng/workbook-6/blob/main/Screenshot/workbook-6-diagram-exc-1.png?raw=true)
+![Workbook 6 Diagram](https://github.com/brendavvng/workbook-6/blob/main/Screenshot/workbook-6-diagram-exc-1.png?raw=true)
