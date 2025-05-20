@@ -11,6 +11,8 @@ public class TheApp {
         // creating list
         List<Person> friends = new ArrayList<>();
 
+        System.out.println("˗ˋˏ List of Friends ˎˊ-");
+        System.out.println("────── · · ୨୧ · · ──────");
         friends.add(new Person("Emma", "Collins", 28));
         friends.add(new Person("Liam", "Martinez", 34));
         friends.add(new Person("Sophia", "Nguyen", 22));
@@ -25,5 +27,7 @@ public class TheApp {
         for (Person friend : friends) {
             System.out.println(friend);
         }
+
+        System.out.println("────── · · ୨୧ · · ──────");
     }
 }
