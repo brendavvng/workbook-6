@@ -10,6 +10,15 @@ public class Gold extends FixedAsset{
         this.weight = weight;
     }
 
+    // getters and setters
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
     // method implemented from interface via super class
     @Override
     public double getValue() {
