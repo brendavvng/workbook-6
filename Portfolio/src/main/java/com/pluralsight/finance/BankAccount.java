@@ -39,14 +39,18 @@ public class BankAccount implements Valuable {
         this.accountNumber = accountNumber;
     }
 
+    // derived methods added
     public void deposit (double amount) {
-
+        // balance += the amount for deposits
+        this.balance += amount;
     }
 
     public void withdraw (double amount) {
-        
+        // balance -= the amount for withdraws
+        this.balance -= amount;
     }
 
+    // interface method implemented
     @Override
     public double getValue() {
         return 0;
