@@ -40,11 +40,11 @@ public class CreditCard implements Valuable{
 
     // derived methods
     public void charge (double amount) {
-
+        this.balance += amount;
     }
 
     public void pay (double amount) {
-
+        this.balance -= amount;
     }
 
     // implementing interface method
