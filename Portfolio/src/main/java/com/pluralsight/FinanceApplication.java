@@ -11,5 +11,8 @@ public class FinanceApplication {
         account1.deposit(100);
         account2.deposit(100);
 
+        // printing out the balance for both accounts
+        System.out.println(account1.getBalance());
+        System.out.println(account2.getBalance());
     }
 }
