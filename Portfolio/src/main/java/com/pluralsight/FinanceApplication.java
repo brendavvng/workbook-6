@@ -12,7 +12,7 @@ public class FinanceApplication {
         account2.deposit(100);
 
         // printing out the balance for both accounts
-        System.out.println(account1.getBalance());
-        System.out.println(account2.getBalance());
+        System.out.println(account1.getName() + "'s Account Balance: " + account1.getBalance());
+        System.out.println(account2.getName() + "'s Account Balance: " + account2.getBalance());
     }
 }
