@@ -53,6 +53,6 @@ public class BankAccount implements Valuable {
     // interface method implemented
     @Override
     public double getValue() {
-        return 0;
+        return balance;
     }
 }

@@ -50,6 +50,7 @@ public class CreditCard implements Valuable{
     // implementing interface method
     @Override
     public double getValue() {
-        return 0;
+        // negative for debt
+        return -balance;
     }
 }
