@@ -24,8 +24,15 @@ public class TheApp {
 
         Collections.sort(friends);
 
+        // -- lambda way --
+        // friends.forEach(person {
+        // system.out.println(person);
+        // });
+
+
         for (Person friend : friends) {
             System.out.println(friend);
+
         }
 
         System.out.println("────── · · ୨୧ · · ──────");
