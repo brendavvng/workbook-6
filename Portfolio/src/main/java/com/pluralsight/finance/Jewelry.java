@@ -5,8 +5,8 @@ public class Jewelry extends FixedAsset{
     private double karat;
 
     // constructor
-    public Jewelry(String name, double marketValue, double karat) {
-        super(name, marketValue);
+    public Jewelry(String name, double karat) {
+        super(name, karat);
         this.karat = karat;
     }
 
@@ -23,6 +23,6 @@ public class Jewelry extends FixedAsset{
     // implementing interface methods via superclass
     @Override
     public double getValue() {
-        return 0;
+        return getMarketValue();
     }
 }

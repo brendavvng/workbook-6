@@ -1,6 +1,11 @@
 package com.pluralsight;
 
 import com.pluralsight.finance.BankAccount;
+import com.pluralsight.finance.Jewelry;
+import com.pluralsight.finance.CreditCard;
+import com.pluralsight.finance.Gold;
+import com.pluralsight.finance.Portfolio;
+
 
 public class FinanceApplication {
     public static void main(String[] args) {
@@ -14,5 +19,12 @@ public class FinanceApplication {
         // printing out the balance for both accounts
         System.out.println(account1.getName() + "'s Account Balance: " + account1.getBalance());
         System.out.println(account2.getName() + "'s Account Balance: " + account2.getBalance());
+
+        Portfolio portfolio = new Portfolio();
+
+        portfolio.add(new CreditCard("Brenda's Credit Card", "200032", 10000));
+        portfolio.add(new Jewelry("Gold Chain", 5000));
+
+        System.out.println("Total Net Worth: " + portfolio.getValue());
     }
 }

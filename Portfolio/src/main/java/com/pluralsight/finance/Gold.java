@@ -22,6 +22,6 @@ public class Gold extends FixedAsset{
     // method implemented from interface via super class
     @Override
     public double getValue() {
-        return 0;
+        return getMarketValue();
     }
 }

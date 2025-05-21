@@ -11,9 +11,7 @@ public class Portfolio implements Valuable {
     private List<Valuable> assets = new ArrayList<>();
 
     // constructor
-    public Portfolio(String name, String owner) {
-        this.name = name;
-        this.owner = owner;
+    public Portfolio() {
         // initializing list - holds valuable items
         this.assets = new ArrayList<>();
     }

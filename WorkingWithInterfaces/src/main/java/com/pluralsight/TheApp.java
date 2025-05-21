@@ -33,6 +33,7 @@ public class TheApp {
         for (Person friend : friends) {
             System.out.println(friend);
 
+            int ageTotal = 0;
         }
 
         System.out.println("────── · · ୨୧ · · ──────");
